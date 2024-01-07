@@ -1,0 +1,113 @@
+#por{
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top:40px ;
+}
+.lio{
+    color: rgb(228, 56, 84);
+    font-weight: bold;
+    font-size: 30px;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    display: inline;
+    margin-right: 60px;
+    font-weight: bold; 
+}
+ul{
+    text-align: center;
+}
+button{
+    background-color:rgb(228, 56, 84) ;
+    border: rgb(228, 56, 84);
+}
+.hello{
+    position: absolute;
+    top: 30%;
+    font-weight: bold;
+    color: rgba(255, 192, 203, 0.623);
+}
+.laaroussi{
+    position: absolute;
+    top: 40%;
+    font-weight: bold;
+    color: rgb(228, 56, 84);
+    font-size: 70px;
+}
+
+.im{
+    position: absolute;
+    top: 60%;
+    color: white;
+}
+input{
+    position: absolute;
+    top: 70%;
+}
+.lets{
+    position: absolute;
+    top: 70%;
+    left: 17%;
+}
+@media screen and (max-width:450px) and (min-width:375px){
+    .hello{
+        position: absolute;
+        font-size: 60px;
+        top: 30%;
+        font-weight: bold;
+        color: rgba(255, 192, 203, 0.623);
+    }
+    .anas{
+        position: absolute;
+        top: 40%;
+        right: 45%;
+        font-weight: bold;
+        color: rgb(228, 56, 84);
+        font-size: 70px;
+    }
+    .im{
+        position: absolute;
+        font-size: 40px;
+        top: 50%;
+        color: white;
+    }
+    input{
+        position: absolute;
+        top: 60%;
+        font-size: 30px;
+    }
+    .lets{
+        position: absolute;
+        top: 60%;
+        left: 43%;
+        font-size: 30px;
+    }
+    li{
+        display: inline;
+        margin-right: 30px;
+        font-weight: bold; 
+        font-size: 30px;
+    }
+    #por{
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        top:100px ;
+    }
+    .lio{
+        color: rgb(228, 56, 84);
+        font-weight: bold;
+        font-size: 30px;
+        position: absolute;
+        top: 100px;
+        left: 140px;
+    }
+}
+
